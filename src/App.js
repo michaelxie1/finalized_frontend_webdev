@@ -28,6 +28,7 @@ const App = () => {
         <Route exact path="/newtask" component={NewTaskContainer} />
         <Route exact path="/task/:id" component={TaskContainer} />
         <Route exact path="/edittask/:id" component={EditTaskContainer} />
+        
 
       </Switch>        
     </div>
