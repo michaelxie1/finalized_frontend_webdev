@@ -20,6 +20,8 @@ const AllEmployeesView = (props) => {
         );
 
       })}
+      <Link to={`/newemployee`}>
+        Add New Employee</Link>
     </div>
   );
 };
